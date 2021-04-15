@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: #F84447;;
+    background-color: #D31122;
     font-family: ranga;
     src: url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
 }
@@ -22,9 +22,12 @@ a {
     color: white;
 }
 
+.main-container{
+    margin: 0;
+}
+
 nav {
-    background: #000;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: space-between;
   
@@ -38,11 +41,11 @@ nav .main-menu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     font-size: 1.5rem;
 }
 nav .main-menu li a:hover {
-    background: rgb(255,94,0);
+    color: white;
 }
 nav .open-menu {
     font-size: 2rem;
@@ -59,9 +62,21 @@ nav .main-menu .close-menu, i {
 }
 
 .topNavLogo {
+    border: 3px black solid;
     z-index: 10;
 }
 
+#image-truck > img{
+    border: 5px black solid;
+}
+
+#second-section {
+    background-color: #D31122;
+}
+
+#third-section {
+    background-color: #BD1628;
+}
 
 
 /* Mobile phones (portrait and landscape) ---------- */
@@ -72,7 +87,6 @@ nav .main-menu .close-menu, i {
         position: fixed;
         top: 8%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
    
@@ -85,7 +99,7 @@ nav .main-menu .close-menu, i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #F84447;
+        background: #D31122;
         transition: top 1s ease;
         display: none;
         text-align:center;
@@ -110,17 +124,17 @@ nav .main-menu .close-menu, i {
     }
 
     .topNavLogo {
-        width: 40%;
+        width: 30%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 10%;
+        margin-top: 10%;
+        margin-left: 5%;
         position: relative;
     }
 
     #first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
     }
 
     .image-truck > img{
@@ -136,7 +150,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
     }
 
     .contact-info {
@@ -172,22 +185,22 @@ nav .main-menu .close-menu, i {
         top: 26%;
         left: 40%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
     
+     
     .topNavLogo {
-        width: 40%;
+        width: 20%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 5%;
+        margin-top: 5%;
         position: relative;
+        margin-left: 5%;
     }
 
     #first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
     }
 
     .image-truck > img{
@@ -203,7 +216,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
     }
 
     .contact-info {
@@ -239,7 +251,6 @@ nav .main-menu .close-menu, i {
         top: 24%;
         left: 40%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
     
@@ -248,7 +259,7 @@ nav .main-menu .close-menu, i {
         width: 20%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 5%;
+        margin-top: 5%;
         position: relative;
         margin-left: 5%;
     }
@@ -257,7 +268,6 @@ nav .main-menu .close-menu, i {
     #first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
     }
 
     .image-truck > img{
@@ -273,7 +283,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
     }
 
     .contact-info {

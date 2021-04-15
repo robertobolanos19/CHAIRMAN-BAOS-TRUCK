@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: #F84447;;
+    background-color: #D31122;
     font-family: ranga;
     src: url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
 }
@@ -27,8 +27,7 @@ a {
 }
 
 nav {
-    background: #000;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: space-between;
   
@@ -42,11 +41,11 @@ nav .main-menu li a {
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     font-size: 1.5rem;
 }
 nav .main-menu li a:hover {
-    background: rgb(255,94,0);
+    color: white;
 }
 nav .open-menu {
     font-size: 2rem;
@@ -63,24 +62,36 @@ nav .main-menu .close-menu, i {
 }
 
 .topNavLogo {
+    border: 3px black solid;
     z-index: 10;
 }
 
-.image-truck > img{
-  border: 5px black solid;
+#image-truck > img{
+    border: 2px black solid;
 }
+
+.navitem {
+    background-color: #BD1628;
+}
+
+.second-section {
+    background-color: #D31122;
+}
+
+.third-section {
+    background-color: #BD1628;
+}
+
 
 
 /* Mobile phones (portrait and landscape) ---------- */
 @media only screen and (max-width: 600px) {
-
 
     nav {
         height: 10%;
         position: fixed;
         top: 8%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
    
@@ -93,7 +104,7 @@ nav .main-menu .close-menu, i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #F84447;
+        background: #D31122;
         transition: top 1s ease;
         display: none;
         text-align:center;
@@ -118,10 +129,11 @@ nav .main-menu .close-menu, i {
     }
 
     .topNavLogo {
-        width: 40%;
+        width: 30%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 10%;
+        margin-top: 10%;
+        margin-left: 5%;
         position: relative;
     }
 
@@ -139,7 +151,6 @@ nav .main-menu .close-menu, i {
         height: 30px;
         text-align: center;
         border: gray;
-        background-color: #E8562A;
         color: #fff;
         cursor: pointer;
         font-weight: bold;
@@ -150,7 +161,6 @@ nav .main-menu .close-menu, i {
     .first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
         padding-top: 2%;
     }
 
@@ -165,7 +175,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
     }
 
     .second-section h3 {
@@ -181,7 +190,6 @@ nav .main-menu .close-menu, i {
     .third-section {
         width: 100%;
         height: auto;
-        background-color: #B45959;
         padding: 8% 0 8% 0;
     }
 
@@ -205,16 +213,16 @@ nav .main-menu .close-menu, i {
         top: 26%;
         left: 40%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
     
     .topNavLogo {
-        width: 40%;
+        width: 20%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 5%;
+        margin-top: 5%;
         position: relative;
+        margin-left: 5%;
     }
 
     .relative {
@@ -232,7 +240,6 @@ nav .main-menu .close-menu, i {
         height: 30px;
         text-align: center;
         border: gray;
-        background-color: #E8562A;
         color: #fff;
         cursor: pointer;
         font-weight: bold;
@@ -244,7 +251,6 @@ nav .main-menu .close-menu, i {
     .first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
         padding-top: 2%;
     }
 
@@ -260,7 +266,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
    
     }
 
@@ -277,7 +282,6 @@ nav .main-menu .close-menu, i {
     .third-section {
         width: 100%;
         height: auto;
-        background-color: #B45959;
         padding: 4% 0 4% 0;
     }
 
@@ -301,7 +305,6 @@ nav .main-menu .close-menu, i {
         top: 24%;
         left: 40%;
         z-index: 10;
-        background-color: #F84447;
         position: absolute;
     }
     
@@ -309,11 +312,10 @@ nav .main-menu .close-menu, i {
         width: 20%;
         z-index: 16;
         margin-bottom: 5%;
-        padding-top: 5%;
+        margin-top: 5%;
         position: relative;
         margin-left: 5%;
     }
-
     .relative {
         position: relative;
         width: auto;
@@ -329,7 +331,6 @@ nav .main-menu .close-menu, i {
         height: 30px;
         text-align: center;
         border: gray;
-        background-color: #E8562A;
         color: #fff;
         cursor: pointer;
         font-weight: bold;
@@ -341,7 +342,6 @@ nav .main-menu .close-menu, i {
     .first-section   {
         width: 100%;
         height: auto;
-        background-color: #8B4141;
         padding-top: 2%;
     }
 
@@ -358,7 +358,6 @@ nav .main-menu .close-menu, i {
         height: auto;
         text-align: center;
         line-height: 1em;
-        background-color: #8B4141;
    
     }
 
@@ -375,7 +374,6 @@ nav .main-menu .close-menu, i {
     .third-section {
         width: 100%;
         height: auto;
-        background-color: #B45959;
         padding: 4% 0 4% 0;
     }
 
